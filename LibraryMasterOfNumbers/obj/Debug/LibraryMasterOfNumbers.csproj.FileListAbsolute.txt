@@ -1,0 +1,12 @@
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\LibraryMasterOfNumbers\bin\Debug\LibraryMasterOfNumbers.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\LibraryMasterOfNumbers\bin\Debug\LibraryMasterOfNumbers.pdb
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\LibraryMasterOfNumbers\bin\Debug\MicroCore.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\LibraryMasterOfNumbers\bin\Debug\EntityFramework.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\LibraryMasterOfNumbers\bin\Debug\Ionic.Zip.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\LibraryMasterOfNumbers\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\LibraryMasterOfNumbers\bin\Debug\MicroCore.pdb
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\LibraryMasterOfNumbers\bin\Debug\EntityFramework.xml
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\LibraryMasterOfNumbers\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\LibraryMasterOfNumbers\obj\Debug\LibraryMasterOfNumbers.csprojResolveAssemblyReference.cache
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\LibraryMasterOfNumbers\obj\Debug\LibraryMasterOfNumbers.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\LibraryMasterOfNumbers\obj\Debug\LibraryMasterOfNumbers.pdb

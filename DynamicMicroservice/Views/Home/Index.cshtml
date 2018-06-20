@@ -1,0 +1,259 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    var logs = (List<MicroCore.LogClientCall>)ViewBag.Logs;
+    var tasks=(IDictionary<string, string>)ViewBag.TaskClients;
+    var taskLogs=(IDictionary<string, string>)ViewBag.TaskLogs;
+}
+
+<div class="container text-center" id="calc">
+    <div class="calcBG col-md-3 col-md-offset-2 text-center">
+        <div class="row">
+            <small>Bootstrap Calculator</small>
+        </div>
+        <div class="row" id="result">
+            <form name="calc">
+                <input style="border-width: 1px; border:  solid;border-color:#acc1ec" type="text" class="screen text-right" name="result" readonly>
+            </form>
+            <div id="info-label" style="display:none">
+                <div>
+                    <label>Pozitiv</label>
+                    <label id="pozitiv"></label>
+                </div>
+                <div>
+                    <label>Par</label>
+                    <label id="par"></label>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <button id="allClear" type="button" class="btn btn-danger" onclick="clearScreen()">AC</button>
+            <button id="clear" type="button" class="btn btn-warning" onclick="clearScreen()">CE</button>
+            <button id="%" type="button" class="btn btn-info" onclick="myFunction(this.id)">%</button>
+            <button id="/" type="button" class="btn btn-info" onclick="myFunction(this.id)">÷</button>
+        </div>
+        <div class="row">
+            <button id="7" type="button" class="btn btn-info" onclick="myFunction(this.id)">7</button>
+            <button id="8" type="button" class="btn btn-info" onclick="myFunction(this.id)">8</button>
+            <button id="9" type="button" class="btn btn-info" onclick="myFunction(this.id)">9</button>
+            <button id="*" type="button" class="btn btn-info" onclick="myFunction(this.id)">x</button>
+        </div>
+        <div class="row">
+            <button id="4" type="button" class="btn btn-info" onclick="myFunction(this.id)">4</button>
+            <button id="5" type="button" class="btn btn-info" onclick="myFunction(this.id)">5</button>
+            <button id="6" type="button" class="btn btn-info" onclick="myFunction(this.id)">6</button>
+            <button id="-" type="button" class="btn btn-info" onclick="myFunction(this.id)">-</button>
+        </div>
+        <div class="row">
+            <button id="1" type="button" class="btn btn-info" onclick="myFunction(this.id)">1</button>
+            <button id="2" type="button" class="btn btn-info" onclick="myFunction(this.id)">2</button>
+            <button id="3" type="button" class="btn btn-info" onclick="myFunction(this.id)">3</button>
+            <button id="+" type="button" class="btn btn-info" onclick="myFunction(this.id)">+</button>
+        </div>
+        <div class="row">
+            <button id="0" type="button" class="btn btn-info" onclick="myFunction(this.id)">0</button>
+            <button id="." type="button" class="btn btn-info" onclick="myFunction(this.id)">.</button>
+            <button id="equals" type="button" class="btn btn-success" onclick="calculate()">=</button>
+            <button id="blank" type="button" class="btn btn-info">&nbsp;</button>
+        </div>
+    </div>
+
+    <div id="text" class="col-md-offset-1 col-md-6 text-center" style="margin-top:40px">
+        <div class="row">
+            <div class="col-md-11">
+                <label>Generează pdf</label>
+                <div class="input-group col-md-12">
+                    <input type="text" id="pdf-text" style="display:inline-block;width:200px" class="form-control">
+                    <button onclick="submitPDF()" class="btn btn-primary" style="height: 34px;margin-top: -1px;margin-left: 20px;width:100px" type="button">Trimite</button>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top:20px;">
+            <div class="col-md-11">
+                <label>Scrie în BD</label>
+                <div class="input-group col-md-12">
+                    <input type="text" id="bd-text" style="display:inline-block;width:200px" class="form-control">
+                    <button onclick="submitBD()" class="btn btn-primary" style="height: 34px;margin-top: -1px;margin-left: 20px;width:100px" type="button">Trimite</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+
+
+
+    <div class="container">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ClientToken</th>
+                    <th>Date</th>
+                    <th>IP</th>
+                    <th>Port</th>
+                    <th>Function</th>
+                    <th>Success</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in logs.OrderByDescending(x=>x.Date))
+                {
+                    <tr>
+                        <td>@item.ClientToken</td>
+                        <td>@item.Date.ToLongTimeString()</td>
+                        <td>@item.IP</td>
+                        <td>@item.Port</td>
+                        <td>@item.Function</td>
+                        <td>@item.Success</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Task name</th>
+                    <th>Clients</th>
+    
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in tasks)
+                {
+                    <tr>
+                        <td>@item.Key</td>
+                        <td>@item.Value</td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Task name</th>
+                    <th>Logs</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in taskLogs)
+                {
+                    <tr>
+                        <td>@item.Key</td>
+                        <td>@Html.Raw(item.Value)</td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<style>
+input{
+  border: none;
+}
+.btn-info{
+    background-color:#acc1ec;
+}
+button {
+  height: 50px;
+  width: 50px;
+  margin: 10px 4px;
+  box-shadow: inset 1px 1px 50px  #0066FF;
+  border: none !important;
+}
+*:focus {
+    outline: 0 !important;
+}
+#allClear {
+  box-shadow: inset 1px 1px 50px  #990000;
+  border: none;
+}
+#clear {
+  box-shadow: inset 1px 1px 50px  #CC6600;
+  border: none;
+}
+#equals{
+  box-shadow: inset 1px 1px 50px #006633;
+  border: none;
+}
+/* Hidden button for formatting sake */
+#blank {
+  visibility: hidden;
+}
+.calcBG {
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: inset 1px 1px 50px #cacaca;
+}
+.screen {
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 2px;
+  font-size: 16px;
+  font-weight: bold;
+  
+  
+}
+small {
+  color: #fff;
+  font-weight: bold;
+}
+
+</style>
+<script>
+    function submitPDF() {
+        var text=$("#pdf-text").val();
+        var win = window.open('/api/math/WriteDiploma?name='+ encodeURIComponent(text), '_blank');
+        win.focus();
+    }
+    function submitBD() {
+        var text=$("#bd-text").val();
+        var win = window.open('/api/math/TestBD?text='+ encodeURIComponent(text), '_blank');
+        win.focus();
+    }
+        
+    // Determines button clicked via id
+    function myFunction(id) {
+        document.calc.result.value += id;
+    }
+
+    // Clears calculator input screen
+    function clearScreen() {
+        document.calc.result.value = "";
+        $("#info-label").hide();
+    }
+
+    // Calculates input values
+    function calculate() {
+        try {
+            var input = encodeURIComponent(document.calc.result.value);
+            
+                $.ajax({
+                    cache: false,
+                    type: "GET",
+                    url: "/Home/ComputeResult?input="+input,
+                    success: function (data) {
+                        document.calc.result.value = document.calc.result.value + "=" + data.Result;
+                        $("#par").html(data.IsEven?"Da":"Nu");
+                        $("#pozitiv").html(data.IsPositive ? "Da" : "Nu");
+                        $("#info-label").show();
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                    }
+                });
+            
+        } catch (err) {
+            document.calc.result.value = "Error";
+        }
+    }
+</script>

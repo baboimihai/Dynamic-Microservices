@@ -1,0 +1,12 @@
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\ClassLibraryMath\bin\Release\ClassLibraryMath.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\ClassLibraryMath\bin\Release\ClassLibraryMath.pdb
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\ClassLibraryMath\bin\Release\MicroCore.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\ClassLibraryMath\bin\Release\Newtonsoft.Json.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\ClassLibraryMath\bin\Release\EntityFramework.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\ClassLibraryMath\bin\Release\Ionic.Zip.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\ClassLibraryMath\bin\Release\MicroCore.pdb
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\ClassLibraryMath\bin\Release\Newtonsoft.Json.xml
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\ClassLibraryMath\bin\Release\EntityFramework.xml
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\ClassLibraryMath\obj\Release\ClassLibraryMath.csprojResolveAssemblyReference.cache
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\ClassLibraryMath\obj\Release\ClassLibraryMath.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\ClassLibraryMath\obj\Release\ClassLibraryMath.pdb

@@ -1,0 +1,13 @@
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\MicroCore\bin\Release\MicroCore.dll.config
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\MicroCore\bin\Release\MicroCore.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\MicroCore\bin\Release\MicroCore.pdb
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\MicroCore\bin\Release\EntityFramework.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\MicroCore\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\MicroCore\bin\Release\Ionic.Zip.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\MicroCore\bin\Release\Newtonsoft.Json.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\MicroCore\bin\Release\EntityFramework.xml
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\MicroCore\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\MicroCore\bin\Release\Newtonsoft.Json.xml
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\MicroCore\obj\Release\MicroCore.csprojResolveAssemblyReference.cache
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\MicroCore\obj\Release\MicroCore.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\MicroCore\obj\Release\MicroCore.pdb

@@ -1,0 +1,16 @@
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\UniverseOfMath\bin\Release\UniverseOfMath.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\UniverseOfMath\bin\Release\UniverseOfMath.pdb
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\UniverseOfMath\bin\Release\ClassLibraryMath.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\UniverseOfMath\bin\Release\LibraryMasterOfNumbers.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\UniverseOfMath\bin\Release\MicroCore.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\UniverseOfMath\bin\Release\EntityFramework.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\UniverseOfMath\bin\Release\Ionic.Zip.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\UniverseOfMath\bin\Release\Newtonsoft.Json.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\UniverseOfMath\bin\Release\ClassLibraryMath.pdb
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\UniverseOfMath\bin\Release\LibraryMasterOfNumbers.pdb
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\UniverseOfMath\bin\Release\MicroCore.pdb
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\UniverseOfMath\bin\Release\EntityFramework.xml
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\UniverseOfMath\bin\Release\Newtonsoft.Json.xml
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\UniverseOfMath\obj\Release\UniverseOfMath.csprojResolveAssemblyReference.cache
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\UniverseOfMath\obj\Release\UniverseOfMath.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\UniverseOfMath\obj\Release\UniverseOfMath.pdb

@@ -1,0 +1,16 @@
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\PdfDiploma\bin\Release\PdfDiploma.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\PdfDiploma\bin\Release\PdfDiploma.pdb
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\PdfDiploma\bin\Release\itextsharp.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\PdfDiploma\bin\Release\MicroCore.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\PdfDiploma\bin\Release\System.Drawing.Primitives.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\PdfDiploma\bin\Release\ZKWeb.System.Drawing.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\PdfDiploma\bin\Release\EntityFramework.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\PdfDiploma\bin\Release\Ionic.Zip.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\PdfDiploma\bin\Release\Newtonsoft.Json.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\PdfDiploma\bin\Release\MicroCore.pdb
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\PdfDiploma\bin\Release\itextsharp.xml
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\PdfDiploma\bin\Release\EntityFramework.xml
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\PdfDiploma\bin\Release\Newtonsoft.Json.xml
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\PdfDiploma\obj\Release\PdfDiploma.csprojResolveAssemblyReference.cache
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\PdfDiploma\obj\Release\PdfDiploma.dll
+C:\Users\Mihai\Documents\Visual Studio 2015\Projects\DynamicMicroservice\PdfDiploma\obj\Release\PdfDiploma.pdb
